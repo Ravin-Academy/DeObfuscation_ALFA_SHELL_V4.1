@@ -102,38 +102,6 @@ else{
 					}
 		}
 
-
-
-function XfLDNOTcBjBg($XZgimALWXhO){
-			echo "etst\n\n\n";
-			global $key_1,$sub_1,$str_len,$str_1,$char_,$GMXhdyVt,$regex_1,$YYXTntgKKmgxGpK;
-			if(empty($XZgimALWXhO))
-				return;
-			$fPMmJIzNAw = $CwMxsC = $miNdU = $YYXTntgKKmgxGpK;
-			$EWgifNd = $WwMxQ = $aRBttOd = $PQdOlRWc = $YYXTntgKKmgxGpK;
-			$lamuvLnmgRmpgKU = 0;
-			$irZKCmXEJNv = $YYXTntgKKmgxGpK;
-			$XZgimALWXhO = $GMXhdyVt($regex_1, $YYXTntgKKmgxGpK, $XZgimALWXhO);
-			do{
-				$EWgifNd = $str_1($key_1, $sub_1($XZgimALWXhO, $lamuvLnmgRmpgKU++, 1));
-				$WwMxQ = $str_1($key_1, $sub_1($XZgimALWXhO, $lamuvLnmgRmpgKU++, 1));
-				$aRBttOd = $str_1($key_1, $sub_1($XZgimALWXhO, $lamuvLnmgRmpgKU++, 1));
-				$PQdOlRWc = $str_1($key_1, $sub_1($XZgimALWXhO, $lamuvLnmgRmpgKU++, 1));
-				$fPMmJIzNAw = ($EWgifNd << 2) | ($WwMxQ >> 4);$CwMxsC = (($WwMxQ & 15) << 4) | ($aRBttOd >> 2);
-				$miNdU = (($aRBttOd & 3) << 6) | $PQdOlRWc;
-				$irZKCmXEJNv = $irZKCmXEJNv . $char_((int) $fPMmJIzNAw);
-				if ($aRBttOd != 64) {
-					$irZKCmXEJNv = $irZKCmXEJNv . $char_((int) $CwMxsC);
-				}if ($PQdOlRWc != 64) {
-					$irZKCmXEJNv = $irZKCmXEJNv . $char_((int) $miNdU);
-				}
-				$fPMmJIzNAw = $CwMxsC = $miNdU = $YYXTntgKKmgxGpK;
-				$EWgifNd = $WwMxQ = $aRBttOd = $PQdOlRWc = $YYXTntgKKmgxGpK;
-			}
-			while($lamuvLnmgRmpgKU < $str_len($XZgimALWXhO));
-				return $irZKCmXEJNv;
-				//echo $irZKCmXEJNv;
-				}
 			
 function XfLDNOTcBjBg__($GIrEV){
 					global $base64__decode_;
