@@ -58,7 +58,6 @@ if(!$func_1($base64_1)){
 else{
 	function func_2($GIrEV){
 		global $base64_1;
-			//return $base64_1($GIrEV);
 			echo $base64_1($GIrEV);
 }
 	}
@@ -67,7 +66,6 @@ else{
 function XfLDNOTcBjBg__($GIrEV){
 					global $base64__decode_;
 					return $base64__decode_($GIrEV);
-					//echo $base64__decode_($GIrEV);
 	
 		}
 
